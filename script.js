@@ -16,8 +16,8 @@ document.addEventListener('mousemove', (e) => {
     const verticalOffset = buttonBox.height / 2 + OFFSET
     if (Math.abs(horizontalDistanceFrom) <= horizontalOffset && Math.abs(verticalDistanceFrom) <= verticalOffset) {
         setButtonPosition(
-            buttonBox.x + horizontalOffset / horizontalDistanceFrom * 3,
-            buttonBox.y + verticalOffset / verticalDistanceFrom * 3,
+            buttonBox.x + horizontalOffset / horizontalDistanceFrom * 4,
+            buttonBox.y + verticalOffset / verticalDistanceFrom * 4,
         )
     }
 })
